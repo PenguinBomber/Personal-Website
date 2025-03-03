@@ -1,0 +1,22 @@
+* {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+:root {
+	background-color: #e1cdb5;
+}
+.content, .topBar {
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 1rem;
+}
+.content {
+	background-color: #f2ebe3;
+}
+.topBar {
+	background-color: #f2ebe3;
+}
