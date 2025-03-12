@@ -1,23 +1,37 @@
 * {
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: regular;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
+
 :root {
 	background-color: #e1cdb5;
 }
-.content, .topBar {
+.content, .bar {
 	border-radius: 1rem;
 }
-.topBar > li:hover {
-	border-bottom: 0.1em solid black;
+
+.bar {
+	border-bottom: 0.15rem solid rgba(0,0,0,0.5);
+	background-color: #f2ebe3;
 }
+
+.bar li:hover {
+	border-bottom: 0.2rem solid #6d98ba;
+  margin-bottom: 0.3rem;
+}
+
+.bar li {
+  list-style-type:none;
+  padding: 0px;
+  margin: 0px;
+}
+
 .content {
+  border-bottom: 0.15rem solid rgba(0,0,0,0.5);
 	background-color: #f2ebe3;
 }
-.topBar {
-	background-color: #f2ebe3;
-}
+

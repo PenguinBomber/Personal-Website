@@ -1,18 +1,22 @@
-.topBar {
+.bar {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
 
-.topBar > h3{
+#footer {
+	justify-content: center;
+}
+
+.bar h3 {
 	flex-grow: 1;
 }
 
-.topBar > li{
+.bar li {
 	margin: 0.5rem;
 }
 
-.content, .topBar {
+.content, .bar {
 	padding: 1rem;
 	margin: 1rem;
 }
