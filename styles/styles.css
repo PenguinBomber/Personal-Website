@@ -10,9 +10,10 @@
 	background-color: #e1cdb5;
 }
 .content, .topBar {
-	padding: 1rem;
-	margin: 1rem;
 	border-radius: 1rem;
+}
+.topBar > li:hover {
+	border-bottom: 0.1em solid black;
 }
 .content {
 	background-color: #f2ebe3;
